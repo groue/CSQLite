@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SQLiteSDK",
+    name: "CSQLite",
     providers: [
         .Apt("libsqlite3-dev")
     ]
